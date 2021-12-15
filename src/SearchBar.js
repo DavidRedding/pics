@@ -1,9 +1,9 @@
 import React from "react";
 
 class SearchBar extends React.Component {
-  // "event" contains a bunch of info about the event that just occured.
-  onInputChange(event) {
-    console.log(event.target.value); // this spec contains the text, that the user just added to input.
+  // "e" contains a bunch of info about the event that just occured.
+  onInputChange(e) {
+    console.log(e.target.value); // this spec contains the text, that the user just added to input.
   }
 
   render() {
