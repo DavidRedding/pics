@@ -1,11 +1,6 @@
 import React from "react";
 
 class SearchBar extends React.Component {
-  // // "e" contains a bunch of info about the event that just occured.
-  // onInputChange(e) {
-  //   console.log(e.target.value); // this spec contains the text, that the user just added to input.
-  // }
-
   state = {
     term: "",
   };
@@ -18,6 +13,7 @@ class SearchBar extends React.Component {
             <label>Image Search</label>
             <input
               type="text"
+              value={this.state.term}
               onChange={(e) => this.setState({ term: e.target.value })}
             ></input>
           </div>
