@@ -13,7 +13,7 @@ class App extends React.Component {
         },
       })
       .then(response => {
-        console.log(response.data.results);
+        console.log(response.data.results)
       })
     };
 
