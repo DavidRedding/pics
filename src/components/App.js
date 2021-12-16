@@ -12,6 +12,9 @@ class App extends React.Component {
           Authorization: "Client-ID _u2soxYwIjernz7ogJlXafjkq-Sk531f0JHpVMSB7oE",
         },
       })
+      .then(response => {
+        console.log(response.data.results)
+      })
     };
 
   render() {
