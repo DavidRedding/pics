@@ -1,4 +1,5 @@
 import React from "react";
+import "./ImageList.css";
 // prettier-ignore
 
 const ImageList = (props) => {          
@@ -8,7 +9,7 @@ const ImageList = (props) => {
                //image.id   //image.urls    //image.description
   });
 
-  return <div>{images}</div>;
+  return <div className = "image-list">{images}</div>;
 };
 
 export default ImageList;
